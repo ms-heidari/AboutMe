@@ -9,9 +9,7 @@
         box-sizing: border-box;
       }
       body {
-        background-image: url(https://pngtree.com/freebackground/ai-artificial-intelligence-starry-sky-portrait-blue-technology-banner_1493062.html);
-        background-size: cover;
-        background-position: center;
+        background-color: #f2f2f2;
         font-family: Arial, sans-serif;
         font-size: 16px;
         line-height: 1.5;
@@ -22,6 +20,9 @@
       
       /* Header styles */
       header {
+        background-image: url(https://png.pngtree.com/freebackground/ai-artificial-intelligence-starry-sky-portrait-blue-technology-banner_1493062.jpg);
+        background-size: cover;
+        background-position: center;
         height: 300px;
         text-align: center;
         display: flex;
@@ -34,24 +35,69 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 20px;
-        background-color: #fff;
-        opacity: 0.9;
-        border-radius: 5px;
       }
 
       /* Button styles */
       .btn {
         display: inline-block;
-        background-color: #333;
+        background-color: #007bff;
         color: #fff;
         padding: 10px 20px;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
+        margin-right: 10px;
       }
 
       .btn:hover {
-        background-color: #8892b0;
+        background-color: #0062cc;
+      }
+
+      /* List styles */
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li:before {
+        content: "•";
+        color: #007bff;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      /* Paragraph styles */
+      p {
+        margin-bottom: 20px;
+      }
+
+      /* Heading styles */
+      h1, h2 {
+        font-weight: bold;
+        color: #007bff;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+      /* Link styles */
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -62,7 +108,7 @@
     <main>
       <p>Thank you for visiting my GitHub page. I'm a Data Scientist, And I'm a master's student in computer of science at the Shahid Beheshti University.</p>
       
-      <p>My research interests are mainly in:</p>
+      <h2>My research interests are mainly in:</h2>
 
       <ul>
         <li>Deep Neural Networks</li>
@@ -77,7 +123,7 @@
         <li>Cognitive Science</li>
       </ul>
       
-      <p>Here you'll find some of my recent projects and contributions.</p>
+       <p>Here you'll find some of my recent projects and contributions.</p>
       <p>Feel free to explore my repositories and don't hesitate to reach out if you have any questions or collaboration opportunities.</p>
       <a href="https://github.com/ms-heidari" class="btn">Visit My GitHub Profile</a>
       <a href="https://ir.linkedin.com/in/ms-heidari" class="btn">Visit My LinkedIn Profile</a>
