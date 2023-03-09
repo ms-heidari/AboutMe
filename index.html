@@ -20,14 +20,38 @@
       
       /* Header styles */
       header {
-        background-image: url(https://png.pngtree.com/freebackground/ai-artificial-intelligence-starry-sky-portrait-blue-technology-banner_1493062.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 300px;
-        text-align: center;
+        background-color: #007bff;
+        height: 80px;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
+        padding: 0 20px;
+      }
+
+      header a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      /* Navigation styles */
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin-left: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
       }
 
       /* Main styles */
@@ -106,7 +130,15 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to My GitHub Page</h1>
+      <a href="#">My Logo</a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <p>Thank you for visiting my GitHub page. I'm a Data Scientist, And I'm a master's student in computer of science at the Shahid Beheshti University.</p>
