@@ -1,87 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>MS Heidari's GitHub Page</title>
+    <title>My GitHub Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      /* Header Styles */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #caddfc;
+      }
+
       header {
-        background: #000;
+        background-color: #2643ad;
         color: #fff;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-      }
-
-      header img {
-        max-height: 100%;
-        max-width: 100%;
-      }
-
-      .header-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        padding: 10px;
         text-align: center;
       }
 
-      .header-text h1 {
-        margin: 0;
-        font-size: 3rem;
-      }
-
-      /* Main Styles */
       main {
+        max-width: 800px;
+        margin: 0 auto;
         padding: 20px;
-        margin: 20px;
-        font-size: 1.2rem;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       }
 
-      main h2 {
-        margin-top: 0;
-        font-size: 2rem;
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
       }
 
       ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+        list-style-type: disc;
+        margin-left: 30px;
+        margin-bottom: 20px;
       }
 
       li {
-        margin: 10px 0;
+        font-size: 16px;
+        line-height: 1.5;
       }
 
       .btn {
         display: inline-block;
-        background-color: #000;
-        color: #fff;
         padding: 10px 20px;
+        background-color: #1e635c;
+        color: #fff;
         text-decoration: none;
         border-radius: 5px;
         margin-right: 10px;
+        margin-bottom: 10px;
       }
 
       .btn:hover {
-        background-color: #fff;
-        color: #000;
+        background-color: #444;
       }
     </style>
   </head>
   <body>
     <header>
-      <div class="header-text">
-        <h1>MS Heidari's GitHub Page</h1>
-        <p>Data Scientist and Master's Student in Computer Science</p>
-      </div>
-      <img src="https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-ai-artificial-intelligence-starry-sky-portrait-blue-technology-banner-image_149306.jpg" alt="Artificial Intelligence Image">
+      <h1>My GitHub Page</h1>
     </header>
     <main>
-      <p>Thank you for visiting my GitHub page. I'm a Data Scientist, And I'm a master's student in computer of science at the Shahid Beheshti University.</p>
-      
+      <p>Thank you for visiting my GitHub page. I'm a Data Scientist, and I'm a master's student in Computer Science at the Shahid Beheshti University.</p>
+
       <h2>My research interests are mainly in:</h2>
 
       <ul>
@@ -96,12 +90,11 @@
         <li>Quantum Machine Learning</li>
         <li>Cognitive Science</li>
       </ul>
-      
+
       <p>Here you'll find some of my recent projects and contributions.</p>
       <p>Feel free to explore my repositories and don't hesitate to reach out if you have any questions or collaboration opportunities.</p>
       <a href="https://github.com/ms-heidari" class="btn">Visit My GitHub Profile</a>
       <a href="https://ir.linkedin.com/in/ms-heidari" class="btn">Visit My LinkedIn Profile</a>
-
     </main>
   </body>
 </html>
